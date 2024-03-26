@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Xpronoob\\source\\repos\\ProyectoPAW\\ProyectoPAW\\ProyectoPAW.csproj": {}
+    "C:\\Users\\ASUS\\OneDrive\\Desktop\\Proyecto PAW\\ProyectoPrograAvanzada\\ProyectoPAW\\ProyectoPAW.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Xpronoob\\source\\repos\\ProyectoPAW\\ProyectoPAW\\ProyectoPAW.csproj": {
+    "C:\\Users\\ASUS\\OneDrive\\Desktop\\Proyecto PAW\\ProyectoPrograAvanzada\\ProyectoPAW\\ProyectoPAW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Xpronoob\\source\\repos\\ProyectoPAW\\ProyectoPAW\\ProyectoPAW.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Proyecto PAW\\ProyectoPrograAvanzada\\ProyectoPAW\\ProyectoPAW.csproj",
         "projectName": "ProyectoPAW",
-        "projectPath": "C:\\Users\\Xpronoob\\source\\repos\\ProyectoPAW\\ProyectoPAW\\ProyectoPAW.csproj",
-        "packagesPath": "C:\\Users\\Xpronoob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Xpronoob\\source\\repos\\ProyectoPAW\\ProyectoPAW\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Proyecto PAW\\ProyectoPrograAvanzada\\ProyectoPAW\\ProyectoPAW.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Proyecto PAW\\ProyectoPrograAvanzada\\ProyectoPAW\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Xpronoob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,6 +55,10 @@
               "version": "[6.0.28, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.28, )"
             },

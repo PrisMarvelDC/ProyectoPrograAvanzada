@@ -60,7 +60,8 @@ GO
 --GO
 ---
 CREATE TABLE [dbo].[TCursoUsuario](
-    [CursoId] [bigint] NOT NULL,
+    [Id] [bigint] IDENTITY(1,1) NOT NULL,
+	[CursoId] [bigint] NOT NULL,
     [UsuarioId] [nvarchar](450) NOT NULL,
     CONSTRAINT [PK_TCursoUsuario] PRIMARY KEY CLUSTERED ([CursoId] ASC, [UsuarioId] ASC) WITH (
         PAD_INDEX = OFF,
@@ -76,7 +77,8 @@ CREATE TABLE [dbo].[TCursoUsuario](
 GO
 ---
 CREATE TABLE [dbo].[TCursoReceta](
-    [CursoId] [bigint] NOT NULL,
+    [Id] [bigint] IDENTITY(1,1) NOT NULL,
+	[CursoId] [bigint] NOT NULL,
     [RecetaId] [bigint] NOT NULL,
     CONSTRAINT [PK_TCursoReceta] PRIMARY KEY CLUSTERED ([CursoId] ASC, [RecetaId] ASC),
     CONSTRAINT [FK_TCursoReceta_TCurso] FOREIGN KEY([CursoId]) REFERENCES [dbo].[TCurso] ([Id]),
@@ -94,8 +96,11 @@ CREATE TABLE [dbo].[TLogErrores](
     CONSTRAINT [PK_TLogErrores] PRIMARY KEY CLUSTERED ([Id] ASC)
 ) ON [PRIMARY]
 GO
+---
 
---
+DROP TABLE [dbo].[TCursoUsuario]
+DROP TABLE [dbo].[TCursoReceta]
+
 --
 --Quitar constraint
 alter table TCursoReceta drop constraint FK_TCursoReceta_TReceta
