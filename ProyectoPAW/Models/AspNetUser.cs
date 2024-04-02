@@ -12,7 +12,7 @@ namespace ProyectoPAW.Models
             AspNetUserTokens = new HashSet<AspNetUserToken>();
             TcursoUsuarios = new HashSet<TcursoUsuario>();
             Tcursos = new HashSet<Tcurso>();
-            Treceta = new HashSet<Trecetum>();
+            Treceta = new HashSet<Treceta>();
             Roles = new HashSet<AspNetRole>();
         }
 
@@ -41,7 +41,7 @@ namespace ProyectoPAW.Models
         public virtual ICollection<AspNetUserToken> AspNetUserTokens { get; set; }
         public virtual ICollection<TcursoUsuario> TcursoUsuarios { get; set; }
         public virtual ICollection<Tcurso> Tcursos { get; set; }
-        public virtual ICollection<Trecetum> Treceta { get; set; }
+        public virtual ICollection<Treceta> Treceta { get; set; }
 
         public virtual ICollection<AspNetRole> Roles { get; set; }
     }

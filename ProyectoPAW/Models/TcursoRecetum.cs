@@ -10,6 +10,6 @@ namespace ProyectoPAW.Models
         public long RecetaId { get; set; }
 
         public virtual Tcurso Curso { get; set; } = null!;
-        public virtual Trecetum Receta { get; set; } = null!;
+        public virtual Treceta Receta { get; set; } = null!;
     }
 }

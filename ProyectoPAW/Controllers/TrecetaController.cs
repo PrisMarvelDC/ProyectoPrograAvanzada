@@ -56,7 +56,7 @@ namespace ProyectoPAW.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,UsuarioId,Nombre,Descripcion,Instrucciones,Categoria,Ingredientes")] Trecetum trecetum)
+        public async Task<IActionResult> Create([Bind("Id,UsuarioId,Nombre,Descripcion,Instrucciones,Categoria,Ingredientes")] Treceta trecetum)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +90,7 @@ namespace ProyectoPAW.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(long id, [Bind("Id,UsuarioId,Nombre,Descripcion,Instrucciones,Categoria,Ingredientes")] Trecetum trecetum)
+        public async Task<IActionResult> Edit(long id, [Bind("Id,UsuarioId,Nombre,Descripcion,Instrucciones,Categoria,Ingredientes")] Treceta trecetum)
         {
             if (id != trecetum.Id)
             {

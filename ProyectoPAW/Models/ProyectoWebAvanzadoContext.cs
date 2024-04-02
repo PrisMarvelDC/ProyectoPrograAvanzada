@@ -26,7 +26,7 @@ namespace ProyectoPAW.Models
         public virtual DbSet<TcursoRecetum> TcursoReceta { get; set; } = null!;
         public virtual DbSet<TcursoUsuario> TcursoUsuarios { get; set; } = null!;
         public virtual DbSet<TlogErrore> TlogErrores { get; set; } = null!;
-        public virtual DbSet<Trecetum> Treceta { get; set; } = null!;
+        public virtual DbSet<Treceta> Treceta { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -224,7 +224,7 @@ namespace ProyectoPAW.Models
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Trecetum>(entity =>
+            modelBuilder.Entity<Treceta>(entity =>
             {
                 entity.ToTable("TReceta");
 

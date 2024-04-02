@@ -3,22 +3,22 @@ using System.Collections.Generic;
 
 namespace ProyectoPAW.Models
 {
-    public partial class Tcurso
+    public partial class Treceta
     {
-        public Tcurso()
+        public Treceta()
         {
             TcursoReceta = new HashSet<TcursoRecetum>();
-            TcursoUsuarios = new HashSet<TcursoUsuario>();
         }
 
         public long Id { get; set; }
+        public string UsuarioId { get; set; } 
         public string Nombre { get; set; } 
         public string Descripcion { get; set; } 
-        public string Profesor { get; set; } 
-        public string UsuarioId { get; set; } 
+        public string Instrucciones { get; set; } 
+        public string Categoria { get; set; } 
+        public string Ingredientes { get; set; } 
 
         public virtual AspNetUser? Usuario { get; set; } 
         public virtual ICollection<TcursoRecetum>? TcursoReceta { get; set; }
-        public virtual ICollection<TcursoUsuario>? TcursoUsuarios { get; set; }
     }
 }

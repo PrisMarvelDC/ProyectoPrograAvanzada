@@ -2,11 +2,15 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualBasic;
 using ProyectoPAW.Areas.Identity.Data;
+using ProyectoPAW.Models;
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("UsersContextConnection") ?? throw new InvalidOperationException("Connection string 'UsersContextConnection' not found.");
 
 builder.Services.AddDbContext<UsersContext>(options =>
     options.UseSqlServer(connectionString));
+
+builder.Services.AddDbContext<ProyectoWebAvanzadoContext>(op => op.UseSqlServer(builder.Configuration.GetConnectionString("UsersContextConnection")));
+
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddRoles<IdentityRole>()
