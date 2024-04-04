@@ -2,19 +2,23 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using ProyectoPAW.Areas.Identity.Data;
 using ProyectoPAW.Models;
 
 namespace ProyectoPAW.Controllers
 {
     public class TrecetaController : Controller
     {
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly ProyectoWebAvanzadoContext _context;
 
-        public TrecetaController(ProyectoWebAvanzadoContext context)
+        public TrecetaController(UserManager<ApplicationUser> userManager, ProyectoWebAvanzadoContext context)
         {
+            _userManager = userManager;
             _context = context;
         }
 
@@ -47,7 +51,7 @@ namespace ProyectoPAW.Controllers
         // GET: Treceta/Create
         public IActionResult Create()
         {
-            ViewData["UsuarioId"] = new SelectList(_context.AspNetUsers, "Id", "Id");
+            //ViewData["UsuarioId"] = new SelectList(_context.AspNetUsers, "Id", "Id");
             return View();
         }
 
@@ -60,11 +64,14 @@ namespace ProyectoPAW.Controllers
         {
             if (ModelState.IsValid)
             {
+                var user = await _userManager.GetUserAsync(User);
+                trecetum.UsuarioId = user.Id;
+
                 _context.Add(trecetum);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(_context.AspNetUsers, "Id", "Id", trecetum.UsuarioId);
+            //ViewData["UsuarioId"] = new SelectList(_context.AspNetUsers, "Id", "Id", trecetum.UsuarioId);
             return View(trecetum);
         }
 
@@ -101,6 +108,8 @@ namespace ProyectoPAW.Controllers
             {
                 try
                 {
+                    var user = await _userManager.GetUserAsync(User);
+                    trecetum.UsuarioId = user.Id;
                     _context.Update(trecetum);
                     await _context.SaveChangesAsync();
                 }

@@ -9,143 +9,143 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoPAW
 build_property.RootNamespace = ProyectoPAW
-build_property.ProjectDir = C:\Users\ASUS\OneDrive\Desktop\Proyecto PAW\ProyectoPrograAvanzada\ProyectoPAW\
+build_property.ProjectDir = C:\Users\Xpronoob\source\repos\ProyectoPrograAvanzada\ProyectoPAW\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ASUS\OneDrive\Desktop\Proyecto PAW\ProyectoPrograAvanzada\ProyectoPAW
+build_property.MSBuildProjectDirectory = C:\Users\Xpronoob\source\repos\ProyectoPrograAvanzada\ProyectoPAW
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/AspNetUsers/Create.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/AspNetUsers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/AspNetUsers/Delete.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/AspNetUsers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/AspNetUsers/Details.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/AspNetUsers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/AspNetUsers/Edit.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/AspNetUsers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/AspNetUsers/Index.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/AspNetUsers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Home/Index.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Home/Privacy.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Role/Admin.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Role/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Role/Estudiante.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Role/Estudiante.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxFc3R1ZGlhbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Role/Index.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Shared/Error.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Tcurso/Create.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Tcurso/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGN1cnNvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Tcurso/Delete.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Tcurso/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGN1cnNvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Tcurso/Details.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Tcurso/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGN1cnNvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Tcurso/Edit.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Tcurso/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGN1cnNvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Tcurso/Index.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Tcurso/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGN1cnNvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Treceta/Create.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Treceta/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlY2V0YVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Treceta/Delete.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Treceta/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlY2V0YVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Treceta/Details.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Treceta/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlY2V0YVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Treceta/Edit.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Treceta/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlY2V0YVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Treceta/Index.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Treceta/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlY2V0YVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/_ViewImports.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/_ViewStart.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Desktop/Proyecto PAW/ProyectoPrograAvanzada/ProyectoPAW/Views/Shared/_Layout.cshtml]
+[C:/Users/Xpronoob/source/repos/ProyectoPrograAvanzada/ProyectoPAW/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-80smilx1tn
