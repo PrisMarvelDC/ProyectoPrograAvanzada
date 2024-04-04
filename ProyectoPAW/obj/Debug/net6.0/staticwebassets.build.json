@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DPf+/HhFjIK9LXx8Pt5NUVZeORtx47PE8pEEMNc1BvY=",
+  "Hash": "WT6e5scfl14wsPDEBbNnuFqvCDN9w+cxAOd6G9fTsDA=",
   "Source": "ProyectoPAW",
   "BasePath": "_content/ProyectoPAW",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Xpronoob\\source\\repos\\ProyectoPrograAvanzada\\ProyectoPAW\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProyectoPAW.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Xpronoob\\source\\repos\\ProyectoPrograAvanzada\\ProyectoPAW\\wwwroot\\assets\\images\\logoCocina.png",
+      "SourceId": "ProyectoPAW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Xpronoob\\source\\repos\\ProyectoPrograAvanzada\\ProyectoPAW\\wwwroot\\",
+      "BasePath": "_content/ProyectoPAW",
+      "RelativePath": "assets/images/logoCocina.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logoCocina.png"
     },
     {
       "Identity": "C:\\Users\\Xpronoob\\source\\repos\\ProyectoPrograAvanzada\\ProyectoPAW\\wwwroot\\css\\site.css",

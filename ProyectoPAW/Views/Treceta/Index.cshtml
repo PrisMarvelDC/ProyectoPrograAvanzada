@@ -1,68 +1,31 @@
 ﻿@model IEnumerable<ProyectoPAW.Models.Treceta>
 
 @{
-    ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Recetas";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Recetas</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Nueva Receta</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descripcion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Instrucciones)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Categoria)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Ingredientes)
-            </th>
-            <th>
-                @* @Html.DisplayNameFor(model => model.Usuario) *@
-                Creador
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Instrucciones)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Categoria)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Ingredientes)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Usuario.Nombre)
-                    @Html.DisplayFor(modelItem => item.Usuario.Apellidos)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    @foreach (var item in Model) {
+    <div class="col">
+        <div class="card">
+                <a asp-action="Details" asp-route-id="@item.Id"><img src="~/assets/images/placeholderCocina.png" class="card-img-top" alt="card example" /></a>
+            <div class="card-body">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Nombre)</h5>
+                <p class="card-text">@Html.DisplayFor(modelItem => item.Descripcion)</p>
+
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Ver</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+            </div>
+        </div>
+    </div>
+    }
+</div>
+

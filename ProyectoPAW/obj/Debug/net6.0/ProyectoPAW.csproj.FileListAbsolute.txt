@@ -1084,3 +1084,4 @@ C:\Users\Xpronoob\source\repos\ProyectoPrograAvanzada\ProyectoPAW\obj\Debug\net6
 C:\Users\Xpronoob\source\repos\ProyectoPrograAvanzada\ProyectoPAW\obj\Debug\net6.0\ProyectoPAW.pdb
 C:\Users\Xpronoob\source\repos\ProyectoPrograAvanzada\ProyectoPAW\obj\Debug\net6.0\ProyectoPAW.genruntimeconfig.cache
 C:\Users\Xpronoob\source\repos\ProyectoPrograAvanzada\ProyectoPAW\obj\Debug\net6.0\ref\ProyectoPAW.dll
+C:\Users\Xpronoob\source\repos\ProyectoPrograAvanzada\ProyectoPAW\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutMain.cshtml.rz.scp.css

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ProyectoPAW.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Xpronoob\\source\\repos\\ProyectoPrograAvanzada\\ProyectoPAW\\wwwroot\\assets\\images\\logoCocina.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logoCocina.png"
+    },
+    {
       "Id": "C:\\Users\\Xpronoob\\source\\repos\\ProyectoPrograAvanzada\\ProyectoPAW\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

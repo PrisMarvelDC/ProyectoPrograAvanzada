@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoPAW")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e42bdd585b1e349fbf516366cb9999b4316ad104")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d18e2b081adf3b2ca5c9b5d35c1eec7a8a77eb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoPAW")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoPAW")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
